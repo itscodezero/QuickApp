@@ -34,7 +34,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   shouldShowLoginModal: boolean;
   removePrebootScreen: boolean;
   newNotificationCount = 0;
-  appTitle = 'Azure DevOps QuickApp';
+  appTitle = 'Azure DevOps App';
   appLogo = require('../assets/images/logo-white.png');
 
   stickyToasties: number[] = [];
